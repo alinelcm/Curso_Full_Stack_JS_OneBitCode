@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+h1 {
+  width: 50%;
+  font-family: roboto, arial;
+  font-weight: 400;
+  text-align: right;
+  border-bottom: 6px double skyblue;
+  padding-bottom: 5px;
+  color: rgb(240, 241, 241);
+}
+h3 {
+  color: rgb(99, 186, 189);
+  font-family: arial;
+}
+li {
+  color: rgb(213, 250, 255);
+  font-family: arial;
+}
+
+body {
+  background-image: url(https://mobimg.b-cdn.net/v3/fetch/bc/bca6586ac9eb79e53f5ae77b7c47292f.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#male {
+  color: rgb(197, 55, 55);
+}
+.male {
+  width: 8%;
+  margin-left: 250px;
+}

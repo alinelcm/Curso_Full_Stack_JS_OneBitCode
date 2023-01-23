@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SpaceX</title>
+  </head>
+  <body>
+    <header>
+      <a href="spaceX.html"> <img src="logo.png" alt="" /></a>
+      <a href="theSpaceships.html">| The Spaceships</a>
+      <a href="hireUs.html">| Hire Us</a>
+    </header>
+    <hr>
+    <section>
+      <h2>Hire Us Now</h2>
+      Leave a message to request one of our services and we will get back to you
+      as soon as possible.
+    </section>
+    <br /><br />
+    <section>
+      <form action="">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" />
+        <label for="email">- Email:</label>
+        <input type="email" name="email" id="email" />
+        <br /><br />
+        <label for="spaceship">Spaceship:</label>
+        <select name="spaceship" id="spaceship">
+          <option value="falcon9">Falcon 9</option>
+          <option value="falconHeavy">Falcon Heavy</option>
+        </select>
+        <label for="services">Tipe of service:</label>
+        <input list="services" name="services" />
+        <datalist id="services" />
+        <option value="Lorem ipsum"></option>
+        <option value="Ullam dolorum magnam magni"></option>
+        <option value="Quidem architecto maxime nihil numquam natus"></option>
+        <option value="Exercitationem voluptates saepe itaque"></option>
+        </datalist>
+        <br /> <br>
+        <input type="submit" value="Send Message" />       
+      </form>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recicultura</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <header>
+      <a href="recicultura.html">
+        <img src="Recicultura.png" width="150" height="90" />
+      </a>
+      <a href="passeios.html"> Nossos Passeios</a>
+      <a href="reservas.html">| Reservas</a>
+      <a href="quemfaz.html">| Quem faz a Reci</a>
+      <a href="loja.html">| Lojinha</a>
+      <hr />
+    </header>
+    <section class="form">
+      <h4>
+        Informe seus dados e a gente entra em contato ligeiro com seu orçamento!
+      </h4>
+      <form action="">
+        <label for="name">Nome:</label>
+        <input type="text" name="name" id="name" />
+        <label for="number">-Tamanho do grupo:</label>
+        <input type="number" name="number" id="number" min="7" max="20" />
+        <br /><br />
+        <label for="email">Email:</label>
+        <input type="email" name="" id="" />
+        <label for="phone">-Celular:</label>
+        <input type="tel" name="phone" id="phone" />
+
+        <br /><br />
+        <label for="passeio">Passeio:</label>
+        <select name="passeio" id="passeio">
+          <option value="mundo">Eu vi o mundo</option>
+          <option value="ponte">Cidade ponte</option>
+          <option value="hiatos">Hiatos de Poesia</option>
+          <option value="rui">Seu Rui</option>
+          <option value="ilha">Ilha de Deus</option>
+          <option value="poetico">Recife Poetico</option>
+        </select>
+        <label for="date">-Data:</label>
+        <input type="date" name="date" id="date" /> <br /><br />
+        <textarea name="info" id="" cols="30" rows="10">
+Observações, dúvidas...</textarea
+        >
+        <input type="submit" value="Bora!" />
+      </form>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto;
+}
+
+footer {
+  padding: 10px;
+  background-color: rgb(61, 61, 61);
+  height: 70px;
+
+  flex-direction: row;
+  justify-content: end;
+}

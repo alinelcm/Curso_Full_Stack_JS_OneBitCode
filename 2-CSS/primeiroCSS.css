@@ -1,0 +1,19 @@
+h1 {
+  border-bottom: 4px double skyblue;
+  border-right: 8px solid skyblue;
+  border-radius: 3px;
+
+  color: rgb(240, 241, 241);
+}
+h3 {
+  color: aquamarine;
+}
+li {
+  color: rgb(213, 250, 255);
+}
+
+body {
+  background-image: url(https://mobimg.b-cdn.net/v3/fetch/bc/bca6586ac9eb79e53f5ae77b7c47292f.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

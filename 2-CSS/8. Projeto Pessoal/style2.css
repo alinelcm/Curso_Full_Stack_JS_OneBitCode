@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;600&family=Montserrat:wght@300;400&family=Open+Sans&family=Roboto:wght@300;400&display=swap");
+header {
+  background-color: rgb(252, 162, 88);
+  width: 100%;
+}
+body {
+  background-color: rgb(152, 204, 187);
+  font-family: Roboto, Helvetica, sans-serif;
+  margin: 0%;
+}
+a {
+  color: white;
+}
+
+h1 {
+  margin: 25px auto 15px auto;
+  text-align: center;
+  font-size: 38px;
+  font-family: josefin-sans, arial;
+}
+
+h1 + p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.mission {
+  margin: 0px 150px 0 150px;
+}
+h3 + p {
+  text-align: justify;
+}
+.footer {
+  background-color: antiquewhite;
+  text-align: right;
+  font-family: roboto, arial;
+}
+.form {
+  margin-left: 30px;
+}
+.passeios {
+  margin: 5px 10px 5px 10px;
+}
