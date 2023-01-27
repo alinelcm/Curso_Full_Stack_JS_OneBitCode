@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      window.alert("Olá!");
+      let nome = window.prompt("Escreva seu primeiro nome:");
+      let sobrenome = window.prompt("Escreva seu sobrenome:");
+      let campoEstudo = window.prompt("Qual é o seu campo de estudo?");
+      let anoNasc = Number(window.prompt("Em que ano você nasceu?"));
+      let idade = 2023 - anoNasc;
+      document.write(
+        `Olá, recruta <strong>${nome} ${sobrenome}</strong>!<br/>`
+      );
+      document.write(`Você tem ${idade} anos e estuda ${campoEstudo} `);
+    </script>
+  </body>
+</html>
