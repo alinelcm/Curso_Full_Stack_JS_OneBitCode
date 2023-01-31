@@ -1,20 +1,17 @@
-let character1 = prompt("Qual o nome do personagem atacante:");
-let attack = Number(prompt(`Qual o poder de ataque de ${character1}?`));
+const touristName = prompt("Olá, turista. Qual o seu nome?");
+let answer = prompt("Você já viajou para outro país? (S/N)");
+let countries = "";
+let numberOfCountries = 0;
 
-let character2 = prompt("Qual o nome do defensor?");
-let lifePoints = Number(prompt(`Quantos pontos de vida tem ${character2}?`));
-let defense = Number(prompt(`Qual o poder de defesa de ${character2}?`));
-let shield = prompt(`${character2} possui escudo?(s/n)`);
-let damage = 0;
-
-if (attack > defense && shield === "n") {
-  damage = attack - defense;
-} else if (attack > defense && shield === "s") {
-  damage = (attack - defense) / 2;
+while (answer == "S") {
+  let country = prompt("Qual o nome do país?");
+  countries += "</br>" + country;
+  numberOfCountries++;
+  answer = prompt("Você já viajou para mais algum país? (S/N)");
 }
-lifePoints -= damage;
 
+document.write("Nome do(a) turista: " + touristName + "</br>");
 document.write(
-  `${character1} causou ${damage} pontos de dano em ${character2} <br/>`
+  "Quantidade de países visitados: " + numberOfCountries + "</br>"
 );
-document.write(`${character2} está com ${lifePoints} pontos de vida`);
+document.write("Lista de países: " + countries);
