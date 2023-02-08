@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventos no HTML</title>
+  </head>
+  <body>
+    <h1>Eventos no HTML</h1>
+    <div>
+      <label for="onMouseEnter">Entrada do Mouse</label>
+      <input
+        type="text"
+        name=""
+        id="onMouseEnter"
+        onmouseenter="mouseEnter()"
+      />
+    </div>
+    <br />
+    <div>
+      <label for="onChange">Mudança do Valor</label>
+      <input type="text" name="" id="onChange" onchange="change()" />
+    </div>
+    <br />
+    <div>
+      <label for="onFocus">Entrada de Foco</label>
+      <input type="text" name="" id="onFocus" onfocus="foco()" />
+    </div>
+    <br />
+    <div>
+      <label for="onBlur">Saída do Foco</label>
+      <input type="text" name="" id="onBlur" />
+    </div>
+    <br />
+    <div>
+      <button onclick="clicou()">Clique aqui!</button>
+    </div>
+    <script src="eventos.js"></script>
+  </body>
+</html>
