@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventos no JavaScript</title>
+  </head>
+  <body>
+    <h1>Eventos no JavaScript</h1>
+    <p>
+      Ao invés de chamar uma função diretamente no HTML, o addEventListener
+      permite que as ações sejam atribuidas diretamente no arquivo js a partir
+      do ID do elemento
+    </p>
+    <hr />
+    <h2>Exemplo: cadastro de usuário</h2>
+    <section>
+      <label for="userName">Nome de usuário: </label>
+      <input type="text" id="userName" class="userName" />
+      <br /><br />
+      <label for="password">Senha: </label>
+      <input type="password" id="password" class="password" />
+      <br /><br />
+      <label for="confirmPassword">Confirmar senha: </label>
+      <input type="password" id="confirmPassword" class="confirmPassword" />
+      <br /><br />
+      <button id="registerBtn">Registrar</button>
+    </section>
+
+    <script src="eventosJS.js"></script>
+  </body>
+</html>
