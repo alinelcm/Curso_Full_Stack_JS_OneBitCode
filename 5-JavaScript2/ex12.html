@@ -14,9 +14,18 @@
       <form id="registerForm">
         <label for="name">Nome Completo: </label>
         <input type="text" name="name" id="name" />
+        <br /><br />
+        <label for="tech">Tem experiência com quais tecnologias? </label> <br />
         <br />
-        <button class="addTechBtn" id="addTechBtn">Adicionar tecnologia</button>
-        <div id="newTechDiv"></div>
+        <button type="button" class="addTechBtn" id="addTechBtn">
+          Adicionar nova
+        </button>
+
+        <ul id="stackList"></ul>
+        <br /><br />
+        <button type="submit" class="registerDev" id="registerDev">
+          Cadastrar
+        </button>
       </form>
     </section>
     <script src="ex12.js"></script>
