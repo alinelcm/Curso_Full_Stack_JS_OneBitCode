@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+  padding: 20px;
+}
+
+.game-board {
+  background-color: rgb(1, 1, 16);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 8px;
+  width: 310px;
+  height: 310px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.276);
+}
+
+.game-board span {
+  background-color: rgb(218, 222, 222);
+  width: 98px;
+  height: 98px;
+  font-size: 5em;
+  display: grid;
+  place-content: center;
+}
+
+.game-board span.winner {
+  background-color: rgb(103, 198, 103);
+}

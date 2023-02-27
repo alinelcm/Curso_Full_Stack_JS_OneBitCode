@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ex13.css" />
+    <title>Joguinho da velha</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="title">Joguinho da velha</h1>
+      <label for="player1">X: </label>
+      <input
+        type="text"
+        name="player1"
+        id="player1"
+        placeholder="Nome do jogador"
+      />
+      <br /><br />
+      <label for="player2">O: </label>
+      <input
+        type="text"
+        name="player2"
+        id="player2"
+        placeholder="Nome do jogador"
+      />
+      <br />
+      <button class="start-game" id="startGame">Play!</button>
+      <h2>Vez de <span id="turn"></span></h2>
+      <section class="game-board" id="gameBoard">
+        <span data-region="0.0"></span>
+        <span data-region="0.1"></span>
+        <span data-region="0.2"></span>
+        <span data-region="1.0"></span>
+        <span data-region="1.1"></span>
+        <span data-region="1.2"></span>
+        <span data-region="2.0"></span>
+        <span data-region="2.1"></span>
+        <span data-region="2.2"></span>
+      </section>
+    </main>
+    <script src="ex13.js"></script>
+  </body>
+</html>
